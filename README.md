@@ -1,16 +1,42 @@
-# React + Vite
+# E-Shop-Redux
+## Project Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Cartify is a modern React + Redux e-commerce application that allows users to browse products, add them to a shopping cart, update quantities, and manage the cart efficiently. It demonstrates state management using Redux Toolkit and dynamic UI updates with React.
 
-Currently, two official plugins are available:
+This project is ideal for learning React, Redux, async actions, and state management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+View a list of products fetched from an API (fakestoreapi.com).
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Add products to cart with quantity management.
 
-## Expanding the ESLint configuration
+Update product quantities in the cart.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Remove items from the cart.
+
+Dynamic calculation of total price.
+
+Responsive UI with React components.
+
+Navigation between Home and Cart pages using React Router.
+
+### Optional advanced features you can mention if implemented:
+
+Temporary quantity updates (tempItems) before applying changes.
+
+Persistent cart state using localStorage.
+
+Sorting or filtering products.
+
+## Tech Stack
+
+Frontend: React, React Router
+
+State Management: Redux Toolkit, React-Redux
+
+API: Fake Store API (https://fakestoreapi.com/products)
+
+Styling: CSS
+
+Build Tool: Vite
